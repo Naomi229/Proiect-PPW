@@ -1,4 +1,4 @@
-<? php include('server.php') ?>
+<?php include('server.php') ?>
 
 <!DOCTYPE html>
 <html>
@@ -14,7 +14,7 @@
     </div>
 
     <from method="POST" action="register.php">
-    <? php include('errors.php') ; ?>
+    <?php include('errors.php') ; ?>
 
         <div class="input-group">
         <label>Username</label>
